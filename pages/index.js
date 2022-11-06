@@ -161,7 +161,7 @@ export default function Home() {
               <i className='fa-solid fa-basket-shopping' />
               <i className='fa-solid fa-angles-right' />
             </div> */}
-            <h2>Store Owners</h2>
+            <h2>STORE OWNERS</h2>
             <ExpandingCard
               title='maintain accurate inventory'
               open
@@ -217,7 +217,7 @@ export default function Home() {
             </ExpandingCard>
           </div>
           <div className={styles.right}>
-            <h2>Customers</h2>
+            <h2>CUSTOMERS</h2>
             <ExpandingCard
               title='check inventory of stores nearby'
               open
