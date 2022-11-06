@@ -1,0 +1,63 @@
+.expandingCard {
+  display: block;
+  border-top: 1px solid black;
+  padding-left: 24px;
+  margin: 0;
+}
+
+.expandingCard:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+.expandingCard .header {
+  display: flex;
+  flex-flow: row flow;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.expandingCard .header .title {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.expandingCard .header .ctaContainer {
+  padding: 0 32px;
+}
+
+.expandingCard .header .ctaBtn {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 100;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.expandingCard .content {
+  display: block;
+  overflow-y: hidden;
+  transition: height 0.5s ease-in-out;
+}
+
+.expandingCard .content .children {
+  height: 100%;
+}
+
+.expandingCard .content .children .open {
+  display: block;
+}
+
+.expandingCard .content .children .closed {
+  display: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+  .expandingCard {
+    padding: 0;
+    margin: 0;
+  }
+}

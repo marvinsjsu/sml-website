@@ -1,22 +1,286 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.header {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  /* width: 100%; */
+  width: 100%;
+  z-index: 900;
+  padding: 0 150px;
+  margin: 0;
+}
+
+.header .logo {
+  display: inline-block;
+  background: center / contain no-repeat url('/images/main-logo.png');
+  height: 100px;
+  width: 140px;
+  padding: 0;
+  margin: 0;
+}
+
+.header .logo:hover {
+  cursor: pointer;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header nav ul li {
+  color: #F0412F;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 200;
+  padding: 6px;
+  margin: 0 12px;
+}
+
+.header nav ul li:hover,
+.header nav ul li a.active {
+  color: #666666;
+  cursor: pointer;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
+
+.banner {
+  background: linear-gradient(#ffffff, #d8dbf0);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 92vh;
+  width: 100%;
+  padding: 250px 150px 0;
+  margin: 0;
+}
+
+.banner .left {
+  font-family: 'Open Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 100px;
+}
+
+.banner .left h2 {
+  /* color: #333333; */
+  color: #F0412F;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+
+.banner .left p {
+  font-family: sans-serif;
+  color: #666666;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.7;
+  padding: 12px 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.banner .left .orangeText {
+  color: #F0412F;
+  font-weight: 400;
+  /* font-size: 48px;
+  font-family: 'Bebas Neue';
+  font-weight: 400; */
+}
+
+.banner .right {
+  width: 50%;
+}
+
+.iphoneImgWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.btnLinkToStore {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  background-color: #000000;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  padding: 6px;
+  border: 0;
+  margin: 6px 0;
+  text-align: left;
+}
+
+.btnLinkToStore:hover {
+  color: white;
+  background-color: #F0412F;
+  cursor: pointer;
+}
+
+.btnLinkToStore i {
+  display: inline-block;
+  font-size: 32px;
+  margin: 0 12px 0 6px;
+}
+
+.btnLinkToStore .smallText {
+  display: inline-block;
+  font-size: 0.75rem;
+}
+
+.banner .left .btnLinkToStore:nth-of-type(2) i {
+  font-size: 25px;
+  margin-top: 4px;
+}
+
+.workflow {
+  color: #F0412F;
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 190px 150px 80px;
+  font-size: 130px;
+}
+
+.workflow span {
+  color: #666666;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.workflow > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.workflow .arrows {
+  display: flex;
+  flex-direction: row;
+  /* color: #828181; */
+  /* color: #F0412F; */
+  color: #666666;
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+
+.workflow .arrows i {
+  display: inline-inline;
+}
+
+.features {
+  background: linear-gradient(#ffffff, #d8dbf0);
+  display: flex;
+  padding: 100px 150px;
+}
+
+.features .left,
+.features .right {
+  width: 50%;
+}
+
+.features .left {
+  padding-right: 24px;
+}
+
+.features .right {
+  padding-left: 24px;
+}
+
+.features h2 {
+  color: #F0412F;
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.iconWrapper {
+  display: inline-block;
+  font-size: 100px;
+  margin: 24px;
+  color: #F0412F;
+}
+
+.team {
+  padding: 100px 150px;
+}
+
+.team p {
+  color: #666666;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.7;
+}
+
+.team .teamMembers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.member i {
+  font-size: 100px;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  border: 1px solid #F0412F;
+  text-align: center;
+}
+
+.member span.name,
+.member span.title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 12px;
+}
+
+
 
 .footer {
   display: flex;
-  flex: 1;
+  flex-wrap: row wrap;
+  align-items: center;
+  color: white;
+  background-color: #F0412F;
+  height: 300px;
+  width: 100%;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
 }
@@ -26,6 +290,19 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+}
+
+.footer h3 {
+  color: white;
+  font-family: 'Bebas Neue';
+  font-size: 86px;
+  font-weight: 400;
+  margin: 0 24px;
+}
+
+.footer i {
+  margin: 0 2px;
+  font-size: 86px;
 }
 
 .title a {
