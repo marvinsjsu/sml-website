@@ -84,4 +84,6 @@ const Features = React.forwardRef((props, ref) => {
   );
 });
 
+Features.displayName = 'Features';
+
 export default Features;

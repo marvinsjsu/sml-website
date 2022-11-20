@@ -38,4 +38,6 @@ const Team = React.forwardRef((props, ref) => {
   );
 });
 
+Team.displayName = 'Team';
+
 export default Team;
