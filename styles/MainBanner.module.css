@@ -1,0 +1,99 @@
+.banner {
+  background: linear-gradient(#ffffff, #d8dbf0);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 92vh;
+  width: 100%;
+  padding: 250px 150px 0;
+  margin: 0;
+}
+
+.banner .left {
+  font-family: 'Open Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 100px;
+}
+
+.banner .left h2 {
+  /* color: #333333; */
+  /* color: #F0412F; */
+  /* color: #3B2F63; */
+  color: #714FFD;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+
+.banner .left p {
+  font-family: sans-serif;
+  color: #666666;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.7;
+  padding: 12px 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.banner .left .orangeText {
+  /* color: #F0412F; */
+  /* color: #3B2F63; */
+  color: #714FFD;
+  font-weight: 400;
+  /* font-size: 48px;
+  font-family: 'Bebas Neue';
+  font-weight: 400; */
+}
+
+.banner .right {
+  width: 50%;
+}
+
+.iphoneImgWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.btnLinkToStore {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  background-color: #000000;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  padding: 6px;
+  border: 0;
+  margin: 6px 0;
+  text-align: left;
+}
+
+.btnLinkToStore:hover {
+  color: white;
+  /* background-color: #F0412F; */
+  /* background-color: #3B2F63; */
+  background-color: #714FFD;
+  cursor: pointer;
+}
+
+.btnLinkToStore i {
+  display: inline-block;
+  font-size: 32px;
+  margin: 0 12px 0 6px;
+}
+
+.btnLinkToStore .smallText {
+  display: inline-block;
+  font-size: 0.75rem;
+}
+
+.banner .left .btnLinkToStore:nth-of-type(2) i {
+  font-size: 25px;
+  margin-top: 4px;
+}

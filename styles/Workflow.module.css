@@ -1,0 +1,100 @@
+.workflow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 120px 0;
+  margin: 0;
+}
+
+.workflow .tabs {
+  display: flex;
+  flex-direction: row;
+  font-size: 130px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 500;
+}
+
+.workflow .tabContent {
+  background-color: #714FFD;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  top: -40px;
+  min-height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.workflow button {
+  color: #714FFD;
+  background-color: transparent;
+  font-size: 130px;
+  height: 200px;
+  width: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 0;
+  margin: 0 12px;
+}
+
+.workflow button span {
+  color: #714FFD;
+  opacity: 0;
+}
+
+.workflow button:hover,
+.workflow button:hover span {
+  opacity: 1;
+  color: white;
+  background-color: #714FFD;
+  transition: background-color 0.5s ease;
+  transition: opacity 0.5s ease;
+  transition: color 0.5s ease;
+  cursor: pointer;
+}
+
+button.active {
+  color: white;
+  background-color: #714FFD !important;
+}
+
+.workflow .tabs > button > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workflow .tabs button.active div {
+  background-color: red;
+}
+
+.workflow span {
+  color: #666666;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.workflow > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.workflow .arrows {
+  display: flex;
+  flex-direction: row;
+  /* color: #828181; */
+  /* color: #F0412F; */
+  color: #666666;
+  font-size: 50px;
+  /* padding-bottom: 40px; */
+}
+
+.workflow .arrows i {
+  display: inline-inline;
+}
