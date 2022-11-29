@@ -68,7 +68,7 @@ const ShopContent = () => {
           />
         </div>
         <p>
-          <span className={styles.highlight}>Personalized notifications and recommendations.</span>
+          <span className={styles.highlight}>Personalized notifications and product recommendations.</span>
           Reach out to customers with promotions and provide a dynamic smart list of product suggestions.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua.
