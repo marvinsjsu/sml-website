@@ -1,0 +1,56 @@
+.content {
+  width: 100%;
+}
+
+.contentRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 24px 0;
+  margin: 24px 0;
+}
+
+.contentRow:last-of-type {
+  margin-bottom: 64px;
+}
+
+.playerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.playerNotifications {
+  position: relative;
+  top: 20px;
+  z-index: 500;
+}
+
+.playerPersonalizations {
+  position: relative;
+  top: 40px;
+  left: -80px;
+}
+
+.playerCheckout {
+  position: relative;
+  left: 80px;
+}
+
+.player {
+  margin: 0;
+}
+
+.contentRow p {
+  color: #666666;
+  font-size: 1.2rem;
+  width: 60%;
+  padding: 36px;
+}
+
+.contentRow p span {
+  color: #714FFD;
+  display: block;
+  margin-bottom: 12px;
+}

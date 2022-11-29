@@ -1,0 +1,15 @@
+.contentRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.player {
+  border: 1px solid red;
+}
+
+.contentRow p {
+  font-size: 1.2rem;
+}
