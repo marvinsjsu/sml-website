@@ -112,7 +112,7 @@ const PayContent = () => {
           />
         </div>
         <p>
-          <span className={styles.highlight}>Focused and Happier Staff.</span>
+          <span className={styles.highlight}>Happier Staff.</span>
           Let your staff focus on the more important things.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua.

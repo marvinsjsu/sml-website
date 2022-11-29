@@ -104,7 +104,7 @@ const ShopContent = () => {
         </div>
         <p>
           <span className={styles.highlight}>Optimal shopping experience.</span>
-          Reduce friction and provide your customers a fast, painless checkout
+          Reduce friction and provide your customers a fast, painless shopping
           experience.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua.
