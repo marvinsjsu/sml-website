@@ -77,7 +77,7 @@ const ShopContent = () => {
       <div className={styles.contentRow} ref={vicinityDivRef}>
         <p>
           <span className={styles.highlight}>Real-time inventory and value by vicinity.</span>
-          Allow your customers to see what products are nearby, check out and compare prices.  Share
+          Allow your customers to see what products are nearby, compare prices, and pre-order.  Share
           store details beyond open hours and elevate customer experience.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua.
@@ -103,7 +103,7 @@ const ShopContent = () => {
           />
         </div>
         <p>
-          <span className={styles.highlight}>Optimal buying experience.</span>
+          <span className={styles.highlight}>Optimal shopping experience.</span>
           Reduce friction and provide your customers a fast, painless checkout
           experience.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

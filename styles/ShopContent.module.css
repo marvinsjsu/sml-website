@@ -38,6 +38,23 @@
   left: 80px;
 }
 
+.playerPay {
+  position: relative;
+  left: 50px;
+}
+
+.playerStaff {
+  position: relative;
+  left: 50px;
+}
+
+.playerClock {
+  position: relative;
+  top: 80px;
+  left: -40px;
+  z-index: 500;
+}
+
 .player {
   margin: 0;
 }
