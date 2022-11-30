@@ -50,6 +50,12 @@ const ShopContent = () => {
 
   return (
     <div className={styles.content}>
+      <p className={styles.tagLine}>
+        With the <span className={styles.appName}>SkipMyLine</span> mobile app, customers
+        can start their shopping experience before getting to the store.  Through the app,
+        customers can browse products, compare prices, get details of surrounding stores,
+        and so much more.
+      </p>
       <div className={styles.contentRow} ref={personalizationDivRef}>
         <div className={styles.playerContainer}>
           <Player

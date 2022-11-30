@@ -53,6 +53,10 @@ const PayContent = () => {
 
   return (
     <div className={styles.payContent}>
+      <p className={styles.tagLine}>
+        The text here should describe this step of the process and mention some of the benefits 
+        for customer using the mobile app, and the store owner.
+      </p>
       <div className={styles.contentRow} ref={fastPayDivRef}>
         <div className={styles.playerContainer}>
           <Player
